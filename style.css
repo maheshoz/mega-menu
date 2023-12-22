@@ -1,0 +1,178 @@
+body {
+  background: #26134d;
+  color: white;
+}
+.navbar {
+  --bs-navbar-active-color: white;
+  --bs-navbar-color: white;
+  --bs-scroll-height: auto;
+}
+
+@media (min-width: 1200px) {
+  .ml-300 {
+    margin-left: 280px;
+  }
+}
+
+@media (min-width: 576px) {
+  .dropdown-menu {
+    display: block;
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    opacity: 1;
+  }
+
+  .fz-60{
+    font-size: 60px;
+    padding-top: 30px;
+  }
+  
+  .fz-18{
+    font-size: 18px;
+  }
+  .navbar>.container-fluid{
+    justify-content: end;
+  }
+
+ 
+}
+
+.navbar-nav-scroll {
+  /* --bs-scroll-height: auto; */
+  max-height: unset;
+}
+.brand-logo {
+  width: 60px;
+}
+
+.bg-color {
+  background: #26134d;
+  color: white;
+}
+
+.nav-link,
+.dropdown-menu {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: #5b59591d;
+}
+
+.navbar-toggler {
+  background: white;
+  margin-left: auto;
+}
+.dropdown-menu {
+  font-size: 15px;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background: #51515126;
+  color: #f42d93;
+}
+
+/* drop down arrow hide */
+.dropdown-toggle::after{
+  border: none;
+}
+
+.jumbotron {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.why-vwo a{
+  text-decoration: none;
+  color: black;
+}
+.why-vwo a:hover {
+  color: #e20072;
+}
+.why-vwo div {
+  padding: 20px;
+}
+.why-vwo div li {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.why-vwo .why-vwo-title {
+  display: inline-block;
+  padding-bottom: 20px;
+  color: #26134d;
+  font-weight: bold;
+}
+.why-vwo .why-vwo-title i{
+
+  transition-timing-function : linear;
+    transition-property: transform;
+    transition-duration: .1s;
+}
+.why-vwo .why-vwo-title i:hover {
+  transform: translateX(5px);
+}
+
+.why-vwo ul {
+  padding-left: 0;
+}
+
+.resources {
+  color: black;
+}
+
+.resources a{
+  text-decoration: none;
+  color: black;
+}
+.resources .nav-link {
+  color: black;
+}
+
+.resources .nav-pills .nav-link.active {
+  background-color: white;
+  border: 2px solid #e20072;
+  color: black;
+  border-radius: 0;
+}
+
+.resources .nav-pills .nav-link.hover {
+  border: 2px solid #e20072;
+  background-color: white;
+}
+
+.res-img-card {
+  margin-top: 10px;
+}
+
+.res-img-card a{
+  font-size: 14px;
+  padding: 10px;
+}
+.res-anchor a{
+  font-size: 12px;
+  color: #e20072
+}
+
+.capabilities-menus {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.capabilities-menus p{
+  margin: 0;padding: 0;
+  padding: 3px;
+}
+
+.capabilities-menus p bi {
+  padding-right: 5px;
+}
